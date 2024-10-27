@@ -33,10 +33,47 @@ In this project, I created a custom network environment on AWS with the followin
 ![4 VPC](https://github.com/user-attachments/assets/45b627d6-05a8-4ad1-9637-c1fb0db9dd27)
 
 
-### _Step 3: Attach an Internet Gateway_
+### _Step 2: Attach an Internet Gateway_
 
--	In the VPC Dashboard, go to Internet Gateways and select Create Internet Gateway.
--	Name it (e.g., “CloudPlus-IGW”) and click Create Internet Gateway.
--	Select the Internet Gateway, click Actions, then Attach to VPC.
+-	In the VPC Dashboard, go to **Internet Gateways** and select **Create Internet Gateway**.
+- Create **Tags** to track resources
+-	Name it (“DevDept-igw”) and click **Create Internet Gateway**.
+-	Select the Internet Gateway, click **Actions**, then **Attach to VPC**.
 -	Select the VPC you created and attach it.
+
+![5  Gateway](https://github.com/user-attachments/assets/2b71e254-a909-4270-bffb-282e7a0c0cd9)
+![6  Gateway](https://github.com/user-attachments/assets/78c909fc-682a-48ba-bf02-cde523516642)
+![7  Gateway](https://github.com/user-attachments/assets/fc961851-66f4-4357-ad00-86beddceeef1)
+![8  Gateway](https://github.com/user-attachments/assets/b37ffefc-3705-4d80-a68b-467149ce9f94)
+
+
+### _Step 2: Create Subnets_ 
+
+-	In the VPC Dashboard, go to **Subnets** and click **Create subnet**.
+-	Select the VPC you created in Step 1.
+-	**Create a Public Subnet**:
+1.	Name it “Subnet-a.”
+2.	Choose an Availability Zone and set the IP range (172.16.0.0/28).
+3.	Click **Create subne**t.
+-	**Create a Private Subnet**:
+1.	Repeat the steps to add a Private Subnet with a name (“Subnet-b”).
+2.	Set an IP range (172.16.1.0/27).
+3.	Click **Create subnet**.
+
+![9 Subnet](https://github.com/user-attachments/assets/5aa445e4-b5e9-4c7d-8736-8f89423627bb)
+![10 Subnet](https://github.com/user-attachments/assets/ea34d6a4-a18b-4844-9880-bae74856abea)
+![10 Subnet-B](https://github.com/user-attachments/assets/042dd145-eefc-4d59-8903-81af4709b09a)
+![11 Public   Private Subnets](https://github.com/user-attachments/assets/2468c026-6302-477a-977d-be173ef3df36)
+
+
+
+
+
+
+
+
+
+
+
+
 
