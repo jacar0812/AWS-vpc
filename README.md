@@ -117,16 +117,37 @@ In this project, I created a custom network environment on AWS with the followin
 -	Go to the EC2 Dashboard and click Launch Instance.
 #### Public EC2 Instance:
 -	For Instance Details, select the Public Subnet and ensure Auto-assign Public IP is enabled.
--	Configure other settings as needed (e.g., instance type, storage, and tags).
+-	Configure other settings as needed (AWS Linux machine).
 -	Select a security group with inbound rules to allow SSH/HTTP (as needed) for public access.
 -	Launch the instance.
 
+![20 EC2 instance-1](https://github.com/user-attachments/assets/a1d7d7b5-b102-492f-83de-97289b96f918)
+![21 EC2 instance settings](https://github.com/user-attachments/assets/926eadd2-cc05-47ea-914c-322a793fc61f)
+![22 EC2 instance settings-2](https://github.com/user-attachments/assets/f39f4d69-5e78-4843-9ccc-90b859adc48e)
+
+
+
 
 #### Private EC2 Instance:
--	Launch a second EC2 instance in the Private Subnet, with Auto-assign Public IP set to “Disable.”
--	Choose a security group that allows only private network traffic or internal applications, if desired.
+-	Launch a second EC2 instance (AWS Linux Machine) in the Private Subnet, with Auto-assign Public IP set to “Disable.”
+-	Choose a security group that allows only private network traffic or internal applications.
 -	Launch the instance.
 
+
+
+![23 EC2 instance-2](https://github.com/user-attachments/assets/7f2ee492-1dca-406f-ab74-f1eafeb96705)
+![24 EC2 instance-2 settings](https://github.com/user-attachments/assets/350a75c8-fc2d-4151-9ca9-d8932f8efa01)
+![25 Instances](https://github.com/user-attachments/assets/ce358fd6-156b-4f02-af32-5c2179aa6afa)
+
+
+
+### Key Learning Objectives
+- Understanding VPC structure and components
+- Configuring secure subnet routing with Internet and NAT Gateways
+- Practicing public/private EC2 instance setup and secure access management
+
+  
+This project provided valuable hands-on experience with AWS networking, security groups, and VPC architecture essentials required for Cloud+ certification.
 
 
 
