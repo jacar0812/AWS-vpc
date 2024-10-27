@@ -113,6 +113,20 @@ In this project, I created a custom network environment on AWS with the followin
 ![19 Subnet associations-3](https://github.com/user-attachments/assets/8e11b636-c067-4e35-aaf9-0c0295581bbb)
 
 
+### _Step 6: Launch EC2 Instances_
+-	Go to the EC2 Dashboard and click Launch Instance.
+#### Public EC2 Instance:
+-	For Instance Details, select the Public Subnet and ensure Auto-assign Public IP is enabled.
+-	Configure other settings as needed (e.g., instance type, storage, and tags).
+-	Select a security group with inbound rules to allow SSH/HTTP (as needed) for public access.
+-	Launch the instance.
+
+
+#### Private EC2 Instance:
+-	Launch a second EC2 instance in the Private Subnet, with Auto-assign Public IP set to “Disable.”
+-	Choose a security group that allows only private network traffic or internal applications, if desired.
+-	Launch the instance.
+
 
 
 
