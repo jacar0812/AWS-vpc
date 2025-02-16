@@ -1,6 +1,6 @@
 # Build and configure a VPC in AWS
 
-![6 VPC Architecture](https://github.com/user-attachments/assets/fed59636-a933-449c-96c8-4ca11dd8f305)
+![6 VPC Architecture II](https://github.com/user-attachments/assets/be5958e0-9dca-475a-b600-9d967eddbefc)
 
 ## Introduction
 
